@@ -6,7 +6,7 @@ import Webcam from 'react-webcam'
 import useSpeechToText from 'react-hook-speech-to-text';
 import { Mic, StopCircle } from 'lucide-react'
 import { toast } from 'sonner'
-import { chatSession } from '@/utils/GeminiAIModel'
+import { chatSession } from '@/utils/GeminiAiModel'
 import { db } from '@/utils/db'
 import { UserAnswer } from '@/utils/schema'
 import { useUser } from '@clerk/nextjs'
