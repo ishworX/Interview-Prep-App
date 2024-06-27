@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import { SquarePen } from "lucide-react";
 import Header from "./dashboard/_components/Header";
 
 export default function Home() {
@@ -9,16 +10,14 @@ export default function Home() {
       <section className="bg-white dark:bg-gray-900">
         <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
           <a
-            href="#"
+            href="https://www.ishwor.dev/portfolio"
             className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
             role="alert"
           >
             <span className="text-xs bg-primary rounded-full text-white px-4 py-1.5 mr-3">
               New
             </span>{" "}
-            <span className="text-sm font-medium">
-              ishwor.dev Check other projects.
-            </span>
+            <span className="text-sm font-medium">Check other projects!</span>
             <svg
               className="ml-2 w-5 h-5"
               fill="currentColor"
@@ -74,7 +73,7 @@ export default function Home() {
             </a>
           </div>
           <div className="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
-            <span className="font-semibold text-gray-400 uppercase">
+            <span className="font-semibold text-primary uppercase">
               FEATURED IN
             </span>
             <div className="flex flex-wrap justify-center items-center mt-8 text-gray-500 sm:justify-between">
@@ -180,6 +179,127 @@ export default function Home() {
               </a>
             </div>
           </div>
+          <section className="text-primary">
+            <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+              <div className="mx-auto max-w-lg text-center">
+                <h2 className="text-3xl font-bold sm:text-4xl">
+                  How it works?
+                </h2>
+
+                <p className="mt-4 text-gray-800">
+                  Give mock interview in just 3 simple steps.
+                </p>
+              </div>
+
+              <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+                <a
+                  className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+                  href="#"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="40"
+                    height="40"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-atom"
+                  >
+                    <circle cx="12" cy="12" r="1" />
+                    <path d="M20.2 20.2c2.04-2.03.02-7.36-4.5-11.9-4.54-4.52-9.87-6.54-11.9-4.5-2.04 2.03-.02 7.36 4.5 11.9 4.54 4.52 9.87 6.54 11.9 4.5Z" />
+                    <path d="M15.7 15.7c4.52-4.54 6.54-9.87 4.5-11.9-2.03-2.04-7.36-.02-11.9 4.5-4.52 4.54-6.54 9.87-4.5 11.9 2.03 2.04 7.36.02 11.9-4.5Z" />
+                  </svg>
+
+                  <h2 className="mt-4 text-xl font-bold text-primary">
+                    Write prompt for your form
+                  </h2>
+
+                  <p className="mt-1 text-sm text-gray-800">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+                    ut quo possimus adipisci distinctio alias voluptatum
+                    blanditiis laudantium.
+                  </p>
+                </a>
+
+                <a
+                  className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+                  href="#"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="40"
+                    height="40"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-square-pen"
+                  >
+                    <path d="M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                    <path d="M18.375 2.625a1 1 0 0 1 3 3l-9.013 9.014a2 2 0 0 1-.853.505l-2.873.84a.5.5 0 0 1-.62-.62l.84-2.873a2 2 0 0 1 .506-.852z" />
+                  </svg>
+
+                  <h2 className="mt-4 text-xl font-bold text-primary">
+                    Edit your form
+                  </h2>
+
+                  <p className="mt-1 text-sm text-gray-800">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+                    ut quo possimus adipisci distinctio alias voluptatum
+                    blanditiis laudantium.
+                  </p>
+                </a>
+
+                <a
+                  className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+                  href="#"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="40"
+                    height="40"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-share-2"
+                  >
+                    <circle cx="18" cy="5" r="3" />
+                    <circle cx="6" cy="12" r="3" />
+                    <circle cx="18" cy="19" r="3" />
+                    <line x1="8.59" x2="15.42" y1="13.51" y2="17.49" />
+                    <line x1="15.41" x2="8.59" y1="6.51" y2="10.49" />
+                  </svg>
+
+                  <h2 className="mt-4 text-xl font-bold text-primary">
+                    Share and start accepting responses
+                  </h2>
+
+                  <p className="mt-1 text-sm text-gray-800">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+                    ut quo possimus adipisci distinctio alias voluptatum
+                    blanditiis laudantium.
+                  </p>
+                </a>
+              </div>
+
+              <div className="mt-12 text-center">
+                <a
+                  href="/dashboard"
+                  className="inline-block rounded bg-primary px-12 py-3 text-sm font-medium text-white transition hover:bg-pink-700 focus:outline-none focus:ring focus:ring-yellow-400"
+                >
+                  Try Now!
+                </a>
+              </div>
+            </div>
+          </section>
         </div>
       </section>
     </div>
