@@ -1,5 +1,3 @@
-import { drizzle } from 'drizzle-orm/vercel-postgres';
-import { sql } from '@vercel/postgres';
 import { pgTable, serial, text, varchar } from "drizzle-orm/pg-core";
 
 export const MockInterview=pgTable('mockInterview',{
@@ -16,7 +14,7 @@ export const MockInterview=pgTable('mockInterview',{
 export const UserAnswer=pgTable('userAnswer',{
     id:serial('id').primaryKey(),
     mockIdRef:varchar('mockId').notNull(),
-    question:varchar('question').notNull(),
+    Question:varchar('question').notNull(),
     correctAns:text('correctAns'),
     userAns:text('userAns'),
     feedback:text('feedback'),
